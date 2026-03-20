@@ -126,10 +126,15 @@ public class SinglyLinkedList {
     list.show();
     System.out.println("current size is :-->" + list.size());
     list.delete();
-    System.out.println("current size is :-->" + list.size());
-    list.delete();
+    list.sort();
     list.show();
     System.out.println("current size is :-->" + list.size());
-
+    list.deleteFirst();
+    list.show();
+    System.out.println("current size is :-->" + list.size());
+    list.insertFirst(sc.nextInt());
+    list.show();
+    list.sort();
+    list.show();
   }
 }
