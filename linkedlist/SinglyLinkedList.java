@@ -136,5 +136,7 @@ public class SinglyLinkedList {
     list.show();
     list.sort();
     list.show();
+    list.insert(sc.nextInt());
+    list.show();
   }
 }
